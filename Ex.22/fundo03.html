@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição da imagem de Fundo</title>
+    <style>
+        header{
+            background-image: url(Imagens/wallpaper002.jpg);
+            border: 2px;
+            border-radius: 25px;
+            display: flex;
+            height: 250px;
+        }
+
+        header > h1{
+            color: red;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            margin: auto;
+            text-indent: 25px;
+            text-align: justify;
+            padding: 40px;
+        }
+        .bloco{
+            display: flex;
+            background-image: url(Imagens/wallpaper002.jpg);
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+
+        #q1{
+            background-position: left top;
+        }
+        
+        #q1 > h1{
+            color: white;
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            
+            margin: auto;
+            
+            
+        }    
+       
+        #q2{
+            background-position: left center;
+        }
+
+        #q2 >h1{
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            margin: auto;
+        }
+        #q3{
+            background-position: right bottom;
+        }
+        #q4{
+            background-position: center center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, doloremque? Eum facilis, nisi odio libero cumque minus, similique labore accusamus quis placeat omnis esse dolorem! Corrupti, labore? Rerum, natus aliquid!</h1>
+    </header>
+    
+    <div class="bloco" id="q1">
+        <h1>Teste de Centralização</h1>
+        
+
+    </div>
+
+    <div class="bloco" id="q2">
+       <h1>Hugo Santana Silva</h1>
+    </div>
+    
+    <div class="bloco" id="q3">
+
+    </div class="bloco">
+
+    <div class="bloco" id="q4">
+
+    </div>
+    
+</body>
+</html>
